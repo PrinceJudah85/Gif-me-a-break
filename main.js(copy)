@@ -1,0 +1,10 @@
+const baseUrl = 'https://api.giphy.com/v1/gifs/search'
+const trending = 'https://api.giphy.com/v1/gifs/trending'
+const random = 'https://api.giphy.com/v1/gifs/random'
+const apiKeyFirst = '?api_key=KgGG3E7r4Fy1eahbJNPVG6PQ17iZaUmu&q='
+const apiKeySecond = '&limit=25&offset=0&rating=G&lang=en'
+
+const button1 = document.querySelector('#button-search')
+const input = document.querySelector('#search)
+const button2 = document.querySelector('#button-trending')
+const button3 = document.querySelector('#button-random')
