@@ -18,7 +18,7 @@ const button2 = document.querySelector(`#button-trending`)
 // Variable that points to the button element inside the 'Trending' container in HTML.
 const button3 = document.querySelector(`#button-random`)
 // Variable that points to the button element inside the 'Random' container in HTML.
-const button4 = document.querySelector(`#react-button`)
+// const button4 = document.querySelector(`#react-button`)
 //Variable that points to the button element inside the 'Footer' container in HTML.
 const searchBlock = document.querySelector(`#search-block`)
 // Variable that points to the 'Search' container in HTML.
@@ -97,9 +97,9 @@ button3.addEventListener("click", async () => {
     randomGIF(response.data.data.images.fixed_height.url)
   }
 })
-button4.addEventListener("click", function () {
-  let popUp = `<h3>'...But not before Drinks!'</h3>`;
-})
+// button4.addEventListener("click", function () {
+//   let popUp = `<h3>'...But not before Drinks!'</h3>`;
+// })
 //the buton event listener that activates the axios call for the 'randomGIF' content.
 
 // ********* Add Event Listener for Button click ******

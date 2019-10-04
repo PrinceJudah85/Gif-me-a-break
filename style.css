@@ -58,6 +58,8 @@ footer {
   font-size:1em;
   line-height: 2em;
   margin-left:.5em;
+  transform-origin: 0 0;
+  transition: transform .25s, visibility .25s ease-in;
 } 
 
 .contentRows {
@@ -107,6 +109,9 @@ footer {
   grid-column-start:1;
   grid-column-end:2;
   position:relative;
+}
+button:hover {
+  transform: scale(1.5);
 }
 /* #button-trending, #button-random {
   margin-left: .5em;
