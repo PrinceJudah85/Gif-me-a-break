@@ -6,8 +6,8 @@ body {
   -o-background-size: cover;
   background-size: cover;
   overflow-x: hidden;
-  /* overflow-y: scroll; */
-  
+  text-align:center;
+  /* overflow-y: scroll; */ 
 }
 
 header {
@@ -37,16 +37,18 @@ footer {
   grid-template-columns: 1fr 1fr;
 }
 #search {
-  position:absolute;
-  height:2.5em;
-  width:12em;
-  top:1.5em;  
-  left:34em;
+  /* position:absolute; */
+  height: 2.5em;
+  width: 12em;
+  top: 1.5em;  
+  left: 34em;
+  margin-top: 1.6em;
+  margin-left: 1em;
 }
 #button-search, #button-trending, #button-random {
   background-color:black;
   color:white;
-  position: absolute;
+  /* position: absolute; */
   border-style:round;
   border-radius:.5em;
   width:9em;
@@ -55,6 +57,7 @@ footer {
   font-family:'Ubuntu', sans-serif;
   font-size:1em;
   line-height: 2em;
+  margin-left:.5em;
 } 
 
 .contentRows {
@@ -63,7 +66,7 @@ footer {
   grid-template-columns:1fr;
   grid-template-rows:1fr;
   height: 100%;
-  margin: 0 3% 8% 3%;
+  margin: 0 3% 6% 3%;
 }
 
 .subHeader {
@@ -105,12 +108,16 @@ footer {
   grid-column-end:2;
   position:relative;
 }
+/* #button-trending, #button-random {
+  margin-left: .5em;
+} */
 
 @media only screen and (max-width:480px)  {
   body {
     display:inline-grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, 1fr);
+    /* grid-template-rows: repeat(8, 1fr); */
+    background-color:black;
   }
   header {
     margin:0 auto;
@@ -131,4 +138,22 @@ footer {
     background-color:black;
     /* position:static; */
   }
-}
+
+  .gif-row {
+    display: block;
+    border: none;
+  } 
+
+  div#trending-block {
+    margin: 1em;
+    padding-top: 2em;
+  }
+
+  div#search-block {
+    margin-top: 5.75em;
+  }
+
+  div#random-block {
+    margin-top: 3em;
+  }
+} 

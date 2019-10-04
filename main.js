@@ -98,7 +98,7 @@ button3.addEventListener("click", async () => {
   }
 })
 button4.addEventListener("click", function () {
-  let popUp = `<h3>'...But not before Drinks!")'</h3>`;
+  let popUp = `<h3>'...But not before Drinks!'</h3>`;
 })
 //the buton event listener that activates the axios call for the 'randomGIF' content.
 
