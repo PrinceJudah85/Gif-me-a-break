@@ -9,7 +9,7 @@
  MVP
  The site will need to pull at least 3 times from the same API. It must also feature a responsive design that would display seemlessly on a mobile device. 
 
- Website Link: sincere-good-bye.surge.sh
+ Website Link: quaint-ladybug.surge.sh
 
  FRAMEWORK FOR MOBILE APP AND WEB APP
  
